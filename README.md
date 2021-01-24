@@ -1,5 +1,6 @@
 # SkillsBar
-HTML과 CSS 만을 이용한 스킬 바를 만들어 보았습니다. 
+HTML과 CSS 만을 이용한 스킬 바를 만들어 보았습니다.  
+
 ![SkillsBar](https://user-images.githubusercontent.com/61913417/105634435-41b41a80-5ea1-11eb-85b0-3e571b303fac.gif)
 
 ## 공부
