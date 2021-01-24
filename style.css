@@ -41,14 +41,50 @@ body {
 }
 .skill .bar .percentage1 {
     width: 95%;
+    animation: percent1 1s linear backwards;
 }
 .skill .bar .percentage2 {
     width: 90%;
+    animation: percent2 1s 1s linear backwards;
 }
 .skill .bar .percentage3 {
     width: 80%;
+    animation: percent3 1s 2s linear backwards;
 }
 .skill .bar .percentage4 {
     width: 50%;
+    animation: percent4 1s 3s linear backwards;
 }
 
+@keyframes percent1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}
+@keyframes percent2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+@keyframes percent3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+@keyframes percent4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
